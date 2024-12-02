@@ -21,7 +21,7 @@ const Navbar = () => {
 
         {/* nav list */}
         <div className="flex">
-          <ul className="flex justify-between list-none w-[29.5rem] font-roboto text-[18px] font-normal mt-7 right-40 relative z-10">
+          <ul className="flex justify-between list-none w-[472px] font-roboto text-[18px] font-normal mt-7 right-40 relative z-10">
             <li>About Us</li>
             <li>Services</li>
             <li>Team</li>
@@ -31,7 +31,7 @@ const Navbar = () => {
 
           {/* top right image  */}
           <img
-            className="w-80 h-96 top-[-0.875rem] right-0 absolute"
+            className="w-[320px] h-[384px] top-[-14px] right-0 absolute"
             src={right}
             alt="asset2"
           />

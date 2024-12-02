@@ -9,10 +9,10 @@ const AboutUs = () => {
   return (
     <div className="flex mt-20 justify-self-center">
       <img className="w-[38.25rem] h-[25.5rem] mt-24" src={AboutUsImage} alt="about us" />
-            {/* about us content */}
+            {/* about us  */}
             <div className="ml-20">
 
-                {/* heading wrapper */}
+                {/* heading  */}
                 <div>
                     <h1 className="font-rubik text-5xl font-medium leading-[56.88px] text-left">ABOUT US</h1>
                     <span>
@@ -27,7 +27,7 @@ const AboutUs = () => {
                     development, energy and natural resources.
                 </p>
 
-                {/* Engagement and Communication  */}
+                {/* Engagement and Communication content  */}
                 <div className="flex">
                     {/* Engagement */}
                     <div>

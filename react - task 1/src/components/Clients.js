@@ -15,18 +15,19 @@ import spanOurClients from "../assets/spanOurClients.png";
 const Clients = () => {
   return (
     <div className="mt-[8rem]">
-    {/* heading  */}
+    {/* OUR CLIENTS  */}
     <div>
         <h3 className="flex justify-center font-rubik text-5xl font-medium leading-[56.88px] text-left">OUR CLIENTS</h3>
+       {/* Dashhed image */}
         <span className="flex justify-center">
             <img src={spanOurClients} alt="span" />
         </span>
     </div>
 
-    {/* all rows */}
+    
     <div className="w-[69.5rem] ml-auto mr-auto mt-[2.5rem]">
 
-        {/* row1  */}
+        {/* images -1*/}
         <div className="flex justify-between items-center">
             <img className="w-[13.25rem] h-[10rem]" src={Boroondara} alt="client image" />
             <img className="w-[8rem] h-[8.25rem]" src={port} alt="client image" />
@@ -35,7 +36,7 @@ const Clients = () => {
             <img className="w-[10.25rem] h-[4rem]" src={BHP} alt="client image" />
         </div>
 
-        {/* row2  */}
+        {/* images -2*/}
         <div className="flex justify-between items-center mt-[4rem]">
             <img className="w-[11.5625rem] h-[6.625rem]" src={victoria} alt="client image" />
             <img className="w-[16.75rem] h-[10rem]" src={pacificHydro} alt="client image" />

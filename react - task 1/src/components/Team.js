@@ -9,15 +9,16 @@ const Team = () => {
   return (
     
     <div className="mt-[11.375rem]">
-                {/* heading  */}
+                {/* OUR TEAM */}
                 <div>
                     <h3 className="flex justify-center font-rubik text-5xl font-medium leading-[56.88px] text-left">OUR TEAM</h3>
+                    {/* dashhed image */}
                     <span className="flex justify-center">
                         <img src={spanOurTeamImage} alt="span image" />
                     </span>
                 </div>
 
-                {/* all Team  */}
+                {/*  Team Members  */}
                 <div className="flex justify-center mt-8">
                     <div>
                         <img className="w-[17.375rem] h-[13.8125rem]" src={jessicaImage} alt="client image" />

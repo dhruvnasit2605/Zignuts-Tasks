@@ -6,10 +6,10 @@ import linkedin from "../assets/linkedin.png";
 const Footer = () => {
   return (
     <div className="mt-[4.6875rem]">
-            {/* Footer Container */}
-            <div className="bg-blue-200 border border-blue-200 w-[83.75rem] h-[13rem] mx-auto py-[2.625rem] px-[7.125rem]">
+            {/* Container */}
+            <div className="bg-blue-200 border border-blue-200 w-[1340px] h-[13rem] mx-auto py-[2.625rem] px-[7.125rem]">
                 <div className="grid grid-cols-4 gap-8">
-                    {/* Social Section */}
+                    {/* Social  */}
                     <div>
                         <h3 className="text-base font-rubik font-bold mb-4 ml-6">Social</h3>
                         <ul className="space-y-1 text-sm font-normal leading-[30.94px] font-rubik">
@@ -28,7 +28,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Explore Section */}
+                    {/* Explore */}
                     <div>
                         <h3 className="text-base font-rubik font-bold mb-4">Explore</h3>
                         <ul className="space-y-1 text-sm font-normal leading-[30.94px] font-rubik">
@@ -38,7 +38,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Contact Section */}
+                    {/* Contact */}
                     <div>
                         <h3 className="text-base font-rubik font-bold mb-4">Contact</h3>
 
@@ -49,7 +49,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* Email Section */}
+                    {/* Email  */}
                     <div>
                         <h3 className="text-base font-rubik font-bold mb-4">Email</h3>
                         <ul className="space-y-1 text-sm font-normal leading-[30.94px] font-rubik">
@@ -59,7 +59,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            {/* Footer Bottom */}
+            {/* Footer */}
             <div className="my-[1.375rem] flex justify-center">
                 <span className="font-rubik font-normal text-sm">
                     © Copyright 2018 Mendleson Communication Pty Ltd

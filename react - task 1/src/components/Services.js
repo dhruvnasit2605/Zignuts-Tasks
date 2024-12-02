@@ -18,10 +18,10 @@ const Services = () => {
                     </span>
                 </div>
 
-                {/* engagement  */}
+                {/* Engagement  */}
                 <div className="flex mt-20 justify-self-center">
 
-                    {/* content  */}
+                   
                     <div>
                         <h3 className="flex justify-end font-rubik text-[2.6rem] font-medium leading-[56.88px] text-left">
                             ENGAGEMENT
@@ -44,7 +44,8 @@ const Services = () => {
                     {/* image  */}
                     <img className="w-[30.4375rem] h-[15.6875rem]" src={CommunicationImage} alt="Engagement Image" />
                     <div className="ml-[10.625rem] mt-[4rem]">
-                        {/* content  */}
+                       
+
                         <h3 className="flex justify-start font-rubik text-[2.6rem] font-medium leading-[56.88px]">
                             COMMUNICATIONS
                         </h3>
@@ -62,7 +63,7 @@ const Services = () => {
                 {/* facilitation  */}
                 <div className="flex mt-[4.125rem] justify-self-center">
 
-                    {/* content  */}
+                    
                     <div className="mt-[4.375rem]">
                         <h3 className="flex justify-end font-rubik text-[2.6rem] font-medium leading-[56.88px] text-left">
                             FACILITATION
@@ -86,7 +87,7 @@ const Services = () => {
                     {/* image  */}
                     <img className="w-[32.6875rem] h-[22.6875rem]" src={ConsultationImage} alt="Engagement Image" />
                     <div className="ml-[11.5rem] mt-[7.5rem]">
-                        {/* content  */}
+                       
                         <h3 className="flex justify-start font-rubik text-[2.6rem] font-medium leading-[56.88px]">
                             CONSULTATION AND<br />
                             RESEARCH
@@ -103,7 +104,7 @@ const Services = () => {
                 {/* trainings */}
                 <div className="flex mt-[3.75rem] justify-self-center">
 
-                    {/* content  */}
+                   
                     <div className="mt-[4.375rem]">
                         <h3 className="flex justify-end font-rubik text-[2.6rem] font-medium leading-[56.88px] text-left">
                             TRAINING & MENTORING
